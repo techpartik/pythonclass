@@ -14,8 +14,6 @@ class mobike:
 
         elif self.d > 10: 
             self.your_payment = 4500+(self.d - 10 ) * 200
-
-        
         
     def display(self):
         print('Bike Number',self.b , 'Phone Number',self.p , 'Name', self.cn , ' day of rent', self.d, 'Your Final Payment is ', self.your_payment)
